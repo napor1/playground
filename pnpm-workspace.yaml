@@ -1,0 +1,10 @@
+packages:
+  - 'packages/**'
+  - 'scripts/**'
+  - 'faas/**'
+  - 'baas/**'
+  - 'web/**'
+  # not include
+  - '! **/test/**'
+  - '! **/tests/**'
+  - '! **/dist/**'
